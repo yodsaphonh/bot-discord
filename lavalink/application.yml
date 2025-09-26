@@ -1,0 +1,28 @@
+server:
+  port: 2333
+
+lavalink:
+  server:
+    password: "changeme"
+    sources:
+      youtube: false
+      soundcloud: true
+      bandcamp: true
+      http: true
+
+plugins:
+  youtube:
+    enabled: true
+    allowSearch: true
+    allowDirectVideoIds: true
+    allowDirectPlaylistIds: true
+    clients:
+      - WEB
+      - WEB_REMIX
+      - TVHTML5_SIMPLY_EMBEDDED_PLAYER
+      - MUSIC
+      - ANDROID_VR
+
+logging:
+  level:
+    root: INFO
